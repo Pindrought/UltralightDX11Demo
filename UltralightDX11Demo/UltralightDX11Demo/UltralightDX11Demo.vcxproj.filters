@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\DirectoryHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\ErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\StringHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\MimeTypeHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Input\KeyboardEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Input\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Input\MouseEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Input\Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\D3D\D3DClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\D3D\ConstantBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\D3D\Shaders\PixelShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\D3D\Shaders\VertexShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\D3D\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\HtmlViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\LoggerAdapters\LoggerDefault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\FontLoaderAdapters\FontLoaderWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\FontLoaderAdapters\TextAnalysisSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\FileSystems\FileSystemDefault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\GPUAdapters\GPUDriverImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\GPUAdapters\GPUDriverD3D11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\HtmlView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\DirectoryHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\ErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\StringHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\MimeTypeHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Input\Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Input\Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Input\KeyboardEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Input\MousePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Input\MouseEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\D3DClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\ConstantBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\Shaders\PixelShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\Shaders\VertexShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\InputLayoutDescriptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\HtmlViewManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\HtmlView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\LoggerAdapters\LoggerDefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\FontLoaderAdapters\FontLoaderWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\FontLoaderAdapters\TextAnalysisSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\FileSystems\FileSystemDefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\GPUAdapters\GPUDriverImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\GPUAdapters\GPUDriverD3D11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\GPUAdapters\MapEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\D3D\ConstantBufferTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="hlsl\vs\vs_3pf_2tf.hlsl" />
+    <FxCompile Include="hlsl\ps\ps_4pf_2tf.hlsl" />
+    <FxCompile Include="hlsl\ultralight\vs_ul_v2f_c4f_t2f.hlsl" />
+    <FxCompile Include="hlsl\ultralight\vs_ul_v2f_c4f_t2f_t2f_d28f.hlsl" />
+    <FxCompile Include="hlsl\ultralight\ps_ul_fill.hlsl" />
+    <FxCompile Include="hlsl\ultralight\ps_ul_fill_path.hlsl" />
+  </ItemGroup>
+</Project>
