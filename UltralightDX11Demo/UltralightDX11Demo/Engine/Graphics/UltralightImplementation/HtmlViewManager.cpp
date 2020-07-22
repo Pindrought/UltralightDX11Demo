@@ -7,13 +7,13 @@ bool HtmlViewManager::Initialize(D3DClass* pd3d_)
 	//Initialize shared vertex buffer
 	std::vector<Vertex_3pf_2tf> vertices =
 	{
-		Vertex_3pf_2tf(0.0f, 0.0f, 0.0f, 0.0f, 0.0f), //Bottom Left 
-		Vertex_3pf_2tf(0.0f, 1.0f, 0.0f, 0.0f, 1.0f), //Top Left
-		Vertex_3pf_2tf(1.0f, 1.0f, 0.0f, 1.0f, 1.0f), //Top Right
+		Vertex_3pf_2tf(0.0f, 1.0f, 0.0f, 0.0f, 1.0f), //Bottomleft
+		Vertex_3pf_2tf(0.0f, 0.0f, 0.0f, 0.0f, 0.0f), //Topleft
+		Vertex_3pf_2tf(1.0f, 1.0f, 0.0f, 1.0f, 1.0f), //Bottomright
 
-		Vertex_3pf_2tf(0.0f, 0.0f, 0.0f, 0.0f, 0.0f), //Bottom Left 
-		Vertex_3pf_2tf(1.0f, 0.5f, 0.0f, 1.0f, 1.0f), //Top Right
-		Vertex_3pf_2tf(1.0f, 0.0f, 0.0f, 1.0f, 0.0f), //Bottom Right
+		Vertex_3pf_2tf(0.0f, 0.0f, 0.0f, 0.0f, 0.0f), //Topleft
+		Vertex_3pf_2tf(1.0f, 0.0f, 0.0f, 1.0f, 0.0f), //Topright
+		Vertex_3pf_2tf(1.0f, 1.0f, 0.0f, 1.0f, 1.0f), //Bottomright
 	};
 
 	HRESULT hr = vertexBuffer.Initialize(pd3d->device.Get(), vertices);
