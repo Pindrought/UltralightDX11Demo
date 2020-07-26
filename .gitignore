@@ -19,7 +19,7 @@
 #[Rr]elease/
 [Rr]eleases/
 #x64/
-IntermediateBuildFiles/
+IntermediateBuildFiles/x64/Debug/
 x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
