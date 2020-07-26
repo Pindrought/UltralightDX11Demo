@@ -21,6 +21,7 @@ bool HtmlViewManager::Initialize(D3DClass* pd3d_)
 
 	//Ultralight instance initialization
 	ul::Config config;
+	config.use_gpu_renderer = true;
 	config.resource_path = ul::String16(std::string(DirectoryHelper::GetExecutableDirectoryA() + "resources").c_str());
 	config.face_winding = ul::kFaceWinding_Clockwise;
 	ul::Platform::instance().set_config(config);
