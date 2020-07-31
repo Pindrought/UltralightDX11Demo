@@ -4,6 +4,9 @@
 #include "GPUAdapters/GPUDriverD3D11.h"
 #include "../D3D/VertexBuffer.h"
 
+#include "LoadListeners/HtmlViewLoadListener.h"
+#include "ViewListeners/HtmlViewViewListener.h"
+
 class HtmlView
 {
 public:
@@ -21,12 +24,13 @@ public:
 	~HtmlView();
 private:
 	void UpdateWorldMatrix();
+	void RegisterNativeCFunctions();
 	DirectX::XMMATRIX worldMatrix = DirectX::XMMatrixIdentity();
 	VertexBuffer<Vertex_3pf_2tf>& vertexBuffer;
 	GPUDriverD3D11* pGpuDriver = nullptr;
 	ul::RefPtr<ul::View> view;
-	//std::unique_ptr<HtmlViewLoadListener> viewLoadListener;
-	//std::unique_ptr<HtmlViewViewListener> viewViewListener;
+	std::unique_ptr<HtmlViewLoadListener> viewLoadListener;
+	std::unique_ptr<HtmlViewViewListener> viewViewListener;
 
 	uint32_t width = 0;
 	uint32_t height = 0;

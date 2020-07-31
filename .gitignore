@@ -19,7 +19,7 @@
 #[Rr]elease/
 [Rr]eleases/
 #x64/
-IntermediateBuildFiles/x64/Debug/
+IntermediateBuildFiles.*
 x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
@@ -339,3 +339,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/UltralightDX11Demo/IntermediateBuildFiles/x64/Debug

@@ -25,7 +25,7 @@ bool Engine::Initialize(uint32_t width_, uint32_t height_, const char* title_)
 		ErrorHandler::LogCriticalError("Failed to create html view.");
 		return false;
 	}
-	tempView->LoadURL("https://www.google.com");
+	tempView->LoadURL("file:///web/example.html");
 	tempView->Focus();
 
 	return true;

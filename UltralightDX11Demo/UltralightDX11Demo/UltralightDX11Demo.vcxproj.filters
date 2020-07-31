@@ -93,6 +93,12 @@
     <ClCompile Include="Engine\Graphics\UltralightImplementation\HtmlView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\LoadListeners\HtmlViewLoadListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\ViewListeners\HtmlViewViewListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -186,6 +192,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Engine\Graphics\D3D\ConstantBufferTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\LoadListeners\HtmlViewLoadListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\ViewListeners\HtmlViewViewListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

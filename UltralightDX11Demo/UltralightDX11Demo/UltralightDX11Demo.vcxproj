@@ -161,7 +161,9 @@
     <ClCompile Include="Engine\Graphics\UltralightImplementation\GPUAdapters\GPUDriverImpl.cpp" />
     <ClCompile Include="Engine\Graphics\UltralightImplementation\HtmlView.cpp" />
     <ClCompile Include="Engine\Graphics\UltralightImplementation\HtmlViewManager.cpp" />
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\LoadListeners\HtmlViewLoadListener.cpp" />
     <ClCompile Include="Engine\Graphics\UltralightImplementation\LoggerAdapters\LoggerDefault.cpp" />
+    <ClCompile Include="Engine\Graphics\UltralightImplementation\ViewListeners\HtmlViewViewListener.cpp" />
     <ClCompile Include="Engine\Utility\DirectoryHelper.cpp" />
     <ClCompile Include="Engine\Utility\ErrorHandler.cpp" />
     <ClCompile Include="Engine\Utility\MimeTypeHelper.cpp" />
@@ -193,7 +195,9 @@
     <ClInclude Include="Engine\Graphics\UltralightImplementation\GPUAdapters\MapEntry.h" />
     <ClInclude Include="Engine\Graphics\UltralightImplementation\HtmlView.h" />
     <ClInclude Include="Engine\Graphics\UltralightImplementation\HtmlViewManager.h" />
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\LoadListeners\HtmlViewLoadListener.h" />
     <ClInclude Include="Engine\Graphics\UltralightImplementation\LoggerAdapters\LoggerDefault.h" />
+    <ClInclude Include="Engine\Graphics\UltralightImplementation\ViewListeners\HtmlViewViewListener.h" />
     <ClInclude Include="Engine\Utility\DirectoryHelper.h" />
     <ClInclude Include="Engine\Utility\ErrorHandler.h" />
     <ClInclude Include="Engine\Utility\MimeTypeHelper.h" />
